@@ -1,0 +1,583 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 44px;
+    height: 50px;
+    width: 100px;
+    margin-left: 1em;
+    
+}
+
+.logo .text {
+    background-clip: text;
+    font-family: "Roboto - Thin";
+    font-size: 30px;
+    background-clip: text;
+    margin-left: 11px;
+    color: #30aacc;
+
+}
+
+
+.header {
+    background-image: linear-gradient(to right,rgba(9, 5, 47, 0.8) 0%, rgba(49, 29, 94, 0.8) 50%), url(../img/baskgrounds/greytree.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 11px;
+    padding-bottom: 70px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.menu_item {
+    margin-right: 2%;
+}
+
+.menu_item a {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+.menu_item a:hover {
+    text-decoration: none;
+    color: #07cac2;
+    transition: 0.3s;
+}
+
+.title {
+    /* Style for "We Are Awe" */
+    text-align: center;
+    color: #ffffff;
+    font-family: "Playfair Display - Black";
+    font-size: 32px;
+    letter-spacing: 0.32px;
+}
+
+.titletext {
+    /* Style for "This is Ph" */
+    text-align: center;
+  max-width: 771px;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 24px;
+    /* Text style for "This is Ph" */
+    letter-spacing: 0.7px;
+}
+
+.content {
+    margin-top: 183px;
+}
+
+.Button {
+    text-align: center;
+    padding: 3px;
+    width: 120px;
+    height: 40px;
+    cursor: default;
+    color: #00e0d0;
+    border: 2px solid #00e0d0;
+}
+
+.rectangleBar {
+    margin-top: 125px;
+}
+
+.rectangle {
+    /* Style for "dot" */
+    margin: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    border: 2px solid #c2c2c2;
+}
+
+.rectangle:hover {
+    border: 2px solid #00e0d0;
+    background-color: #00e0d0;
+    transition: 0.3s;
+}
+
+
+
+.ourStoryText {
+    color: #413d4b;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.42px;
+    max-width:538px;
+}
+
+.ourStoryTitle {
+    color: #413d4b;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+.bigLogo{
+    display: flex;
+}
+.page2 {
+    min-height:550px;
+    background-image: linear-gradient(to right,rgba(9, 5, 47, 0.8) 0%, rgba(49, 29, 94, 0.8) 50%), url(../img/baskgrounds/new-york-587132_1920.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.page1 {
+    background-color: #ffffff;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    width: 100%;
+}
+
+.page3 {
+    padding-bottom: 70px;
+    background-color: #ffffff;
+    padding-top: 70px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.page4 {
+    padding-bottom: 70px;
+    background-image: linear-gradient(to right,rgba(9, 5, 47, 0.8) 0%, rgba(49, 29, 94, 0.8) 50%), url(../img/baskgrounds/trees.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.page5 {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 70px;
+    background: #f9f9f9;
+}
+
+.page6 {
+    height: 400px;
+    background: #f9f9f9;
+}
+
+.page7 {
+    padding-top: 70px;
+    height: 180px;
+    background: #f9f9f9;
+}
+
+.page8 {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: linear-gradient(to right,rgba(9, 5, 47, 0.8) 0%, rgba(49, 29, 94, 0.8) 50%),url(../img/baskgrounds/greytree.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.page9 {
+    background: #f9f9f9;
+    padding-top: 72px;
+    padding-left: 29%;
+    padding-right: 29%;
+    padding-bottom: 140px;
+}
+
+.page10 {
+    padding-top: 70px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-image: linear-gradient(to right,rgba(9, 5, 47, 0.8) 0%, rgba(49, 29, 94, 0.8) 50%), url(../img/baskgrounds/table_Footer.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.playButton {
+    width: 168px;
+    height: 120px;
+}
+
+.playButton img {
+    margin-bottom: 14px;
+    margin-left: 32px;
+}
+
+.page2 .text {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+.playButton img:hover {
+    opacity: 0.50;
+    transition: 0.3s;
+}
+
+.page3 .title {
+    margin-bottom: 68px;
+}
+
+.page3 .title .text {
+    text-align: center;
+    color: #413d4b;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    letter-spacing: 1.1px;
+}
+
+
+.page3 .title .text2 {
+    text-align: center;
+    opacity: 0.75;
+    color: #2f2d35;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    letter-spacing: 1.05px;
+}
+
+.page3 .row .titles {
+    color: #413d4b;
+    font-family: "Roboto - Black";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.page3 .row .text {
+    margin: auto;
+    width: 254px;
+    opacity: 0.75;
+    color: #333333;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.7px;
+}
+
+.row img {
+    margin-bottom: 35px;
+}
+
+.page3 .row .box {
+    text-align: center;
+    padding-top: 35px;
+    height: 260px;
+    width: 320px;
+    border-style: double;
+    border-width: 1px 1px 1px 1px;
+    border-color: #c2c2c2;
+}
+
+.page3 .row {
+    display: flex;
+    justify-content: center;
+}
+
+.page4 .title {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    margin-bottom: 14px;
+}
+
+.page4 .text {
+    text-align: center;
+    color: #f9f9f9;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.page4 .box {
+    height: 310px;
+    width: 220px;
+    border: 1px solid #d4c0c0;
+    margin: 10px;
+    margin-bottom: 70px;
+}
+
+.page4 .box .title {
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+
+.page4 .box .text {
+    opacity: 0.7;
+    color: #fafafa;
+    font-family: Roboto;
+    font-size: 13px;
+}
+
+.page4 .box img {
+    margin-bottom: 15px;
+}
+
+.page4 .Button {
+
+    text-align: center;
+    padding: 3px;
+    width: 150px;
+    height: 40px;
+    cursor: default;
+    color: #00e0d0;
+    border: 2px solid #00e0d0;
+}
+.page4 .container2{
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.page4 .container2 .box{
+    margin-top: 10px;
+}
+.page5 .title {
+    color: #413d4b;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    margin-bottom: 70px;
+}
+
+.page5 .text {
+    text-align: right;
+    color: #413d4b;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    margin-left: 65%;
+    margin-bottom: 70px;
+}
+
+.page6 .box {
+    background-color: #5a5a5a;
+    width: 100%;
+    height: 200px;
+
+}
+
+.page6 .box1 {
+    background-color: rgb(100, 100, 100);
+    width: 100%;
+    height: 200px;
+
+}
+
+.page7 .Button {
+    text-align: center;
+    padding: 3px;
+    width: 150px;
+    height: 40px;
+    cursor: default;
+    color: #00e0d0;
+    border: 2px solid #00e0d0;
+    font-weight: bold;
+}
+
+.page8 .title {
+    margin-bottom: 42px;
+    margin: auto;
+    opacity: 0.9;
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-size: 100px;
+}
+
+.page8 .text {
+    flex-wrap: nowrap;
+    text-align: center;
+    width: 770px;
+    opacity: 0.85;
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+}
+
+.page8 .slider .arrow {
+    opacity: 0.70;
+    margin: 14px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.page9 .title {
+    color: #413d4b;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    display: flex;
+}
+
+.page9 .contact {
+    height: 450px;
+    max-width: 460px;
+}
+
+.page9 form {
+    margin-top: 35px;
+    margin: auto;
+    
+}
+
+.page9 .smallField {
+    width: 100%;
+    padding: 16px;
+    height: 45px;
+    border: 1px solid #000000;
+    opacity: 0.2;
+    margin-bottom: 23px;
+}
+
+.page9 .BigField {
+    padding: 16px;
+    width: 100%;
+    height: 200px;
+    opacity: 0.2;
+    border: 1px solid #000000;
+    margin-bottom: 23px;
+}
+
+.page9 .LogoBox {
+    max-height: 500px;
+    max-width: 400px;
+    margin-left: auto;
+    text-align: left;
+}
+
+.page9 .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 0vw;
+    text-align: center;
+
+}
+
+.page9 .LogoBox img {
+    margin-top: 35px;
+}
+
+.page10 .text1 {
+    margin-top: 28px;
+    max-width:283px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: lighter;
+}
+
+.page10 .title {
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.page10 input {
+    width: 211px;
+    height: 45px;
+    background-color: transparent;
+    padding: 5px;
+    padding-left: 10px;
+    opacity: 0.7;
+    margin-bottom: 28px;
+}
+
+.page10 .paperBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 45px;
+    border: 1px solid #817897;
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+
+.page10 .paperBox:hover {
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+.page10 .icons {
+    display: flex;
+}
+
+.page10 .iconsItem {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin-left: 8px;
+}
+.page10 .box{
+    margin: 30px;
+    width: 300px;
+}
+.page10 .container{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:990px){
+    .logo{
+        float:none;
+    }
+}
+@media screen and (max-width: 770px){
+    .bigLogo{
+        display: block;
+    }
+}
+@media screen and (max-width: 1300px){
+    .page3 .row .box {
+        border:none;
+    }
+}
+@media screen and (max-width: 1300px){
+    .page9 .title{
+        display: block;
+    }
+    .page9 .contact{
+        margin: auto;
+    }
+    .page9 .LogoBox{
+        padding-top: 30px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 980px){
+    .page10 .container{
+        display: block;
+        
+    }
+    
+}
